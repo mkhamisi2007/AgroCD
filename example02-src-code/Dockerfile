@@ -9,3 +9,6 @@ COPY . .
 
 EXPOSE 3000
 CMD [ "node", "app.js" ]
+#-----
+EXPOSE 5000
+CMD [ "node", "app1.js" ]
